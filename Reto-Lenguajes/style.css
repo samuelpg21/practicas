@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Copia pega fuente */
+
+/* font-family: "Atkinson Hyperlegible Next", serif;*/
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    /* border: 1px solid red; */
+}
+
+nav{
+    background-color: #FFE7CC;
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    top: 0;
+    align-items: center;
+    border-bottom: 2px solid #B84674;
+    border-right: 1px solid #B84674;
+
+}
+nav a{
+    text-decoration: none;
+    color: #B84674;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #F4C3D7;
+    font-weight: bold;
+}
+
+nav div {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#login img {
+    margin-top: 5px;
+    padding: 5px;
+    width: 50px;
+}
+
+header {
+    height: 400px;
+    background-image: url("images/fondo-sostenible.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header h1{
+    color: #DB729C;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3em;
+    width: 100%;
+}
+header h2{
+    color: wheat;
+    text-shadow: 3px 3px 3px black;
+    width: 100%;
+}
+
+/* Sectios, ids y clases */
+
+section img{
+    width: 45%;
+    border-radius: 5%;
+    margin: 20px;
+}
+section p{
+    width: 45%;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+#descripcion {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFE7CC;
+}
+
+#descripcion h1, p{
+    width: 40%;
+
+}
+
+#descripcion p{
+    text-align: justify;
+}
+
+.titulo {
+    color: #B84674;
+    text-align: center;
+    padding: 10px;
+}
+
+#eventos{
+    background-color: #83CCAD;
+    padding: 10px;
+}
+
+#contenedor-eventos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.evento {
+    width: 30%;
+    text-align: center;
+}
+
+.evento p{
+    text-align: justify;
+    width: 100%;
+
+}
+
+.evento img{
+    width: 90%;
+    border-radius: 5%;
+}
+
+
+#evento1 div, #evento2 div, #evento3 div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+#evento1 {
+    background-color: #FFE7CC;
+}
+
+#evento2 {
+    background-color: #83CCAD;
+}
+
+#evento3 {
+    background-color: #FFE7CC;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer div{
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
